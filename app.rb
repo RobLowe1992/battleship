@@ -99,7 +99,7 @@ class Player < Ocean
             @player_moves[row][column] = 'Missed'
             is_game_over
             puts "Target Missed"
-            puts @player_moves
+            puts "#{@player_moves}"
         end
     end
 end
